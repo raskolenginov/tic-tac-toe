@@ -1,0 +1,57 @@
+body {
+    background: #90caf9;
+    background-image: url("https://images.pexels.com/photos/908283/pexels-photo-908283.jpeg?h=350&auto=compress&cs=tinysrgb");
+    font-family: 'Bowlby One SC', cursive;
+  }
+  
+  #data, #test {
+    color: white;
+    background: black;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 18px;
+  }
+  
+  #gameboard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #piece {
+    margin-top: 10px;
+    background: transparent;
+    color:white;
+    font-size: 36px;
+  }
+  
+  .header {
+    color: #cfd8dc;
+    align-self: flex-start;
+    font-size: 44px;
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .tile {
+    border: none;
+    height: 22vh;
+    width: 22vh;
+    background: #cfd8dc;
+    color: #b71c1c;
+    font-size: 12vh;
+    text-align: center;
+    margin: 2px;
+  }
+  
+  .tile:hover {
+    background: #f8bbd0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+  }
